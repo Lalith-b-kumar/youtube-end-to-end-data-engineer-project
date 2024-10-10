@@ -23,5 +23,8 @@ We are using GoogleAPI client which contains information like video,channel,comm
 
 ## Execution Flow
 Lambda Trigger (every 10 mins) -> Extract Code Run( Connecting to API and extracting Data) -> Store Raw Json Data in Amazon S3 -> Trigger Transform Code -> 
-Transform the RAW JSON Data to csv Format and store in S3-> Creating Database/Tables using Amazon Glue - > Reading/Query the Data in Amazon Athena
+Transform the raw JSON Data to csv Format and store in S3-> Creating Database/Tables using Amazon Glue - > Reading/Query the Data in Amazon Athena
+
+## Packages used 
+Refer to Code 
 
